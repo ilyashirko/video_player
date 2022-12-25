@@ -10,14 +10,22 @@
 }
 .menu {
     background-color: black;
+    display: flex;
     
 }
 .menu_button {
     background-color: transparent;
     border-style: none;
     cursor: pointer;
+    height: 40pt;
+    width: 50pt;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-grow: 0;
 }
 .menu_icon {
     color: white;
     font-size: 30pt;
 }
+
