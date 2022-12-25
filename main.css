@@ -1,6 +1,7 @@
 .main_video_frame {
     width: 800px;
     height: 600px;
+    box-shadow: 0 0 30px rgba(0,0,0,75);
 }
 .video_container {
     width: 100%;
