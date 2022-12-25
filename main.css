@@ -10,6 +10,7 @@
 }
 .menu {
     background-color: black;
+    
 }
 .menu_button {
     background-color: transparent;
@@ -18,4 +19,5 @@
 }
 .menu_icon {
     color: white;
+    font-size: 30pt;
 }
