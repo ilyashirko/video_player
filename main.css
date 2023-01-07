@@ -1,19 +1,35 @@
-.main_video_frame {
-    min-height: 95%;
-    width: 95%;
-    box-shadow: 0 0 30px rgba(0,0,0,75);
+HEAD {
+    height: 100%;
+}
+
+BODY {
+    height: 100%;
+}
+
+.vp_empty_button {
+    flex-grow: 1;
+}
+
+.vp_main_vf {
+    height: 600px;
+    width: 800px;
+    box-shadow: 0 0 30px rgba(0,0,0,30);
     display: flex;
     flex-direction: column;
 }
-.video_container {
+
+.vp_video_container {
     flex: 2 1 100px;
 }
-.menu {
+
+.vp_menu {
     background-color: black;
     display: flex;
-    
+    align-items: center;
+    flex-direction: row;
 }
-.menu_button {
+
+.vp_menu_button {
     background-color: transparent;
     border-style: none;
     cursor: pointer;
@@ -24,7 +40,8 @@
     padding-right: 10px;
     flex-grow: 0;
 }
-.menu_icon {
+
+.fa {
     color: white;
     font-size: 30pt;
 }

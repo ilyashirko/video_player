@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="height: 100%;">
+<html>
 <head>
   <title>Заготовка видеоплеера</title>
   <meta charset="utf-8">
@@ -7,25 +7,25 @@
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="main.css">
 </head>
-<body style="height: 100%;">
-  <div id="player" class="main_video_frame">
-    <div class="js-video-container video_container"></div>
-    <div class="menu">
-      <button class="menu_button js-play-button">
-        <i class="fa fa-play menu_icon" aria-hidden="true"></i>
+<body>
+  <div id="player" class="vp_main_vf">
+    <div class="js-video-container vp_video_container"></div>
+    <div class="vp_menu">
+      <button class="vp_menu_button js-play-button">
+        <i class="fa fa-play" aria-hidden="true"></i>
       </button>
-      <button class="menu_button js-pause-button">
-        <i class="fa fa-pause menu_icon" aria-hidden="true"></i>
+      <button class="vp_menu_button js-pause-button">
+        <i class="fa fa-pause" aria-hidden="true"></i>
       </button>
-      <button class="menu_button js-volume-button">
-        <i class="fa fa-volume-off menu_icon" aria-hidden="true"></i>
+      <button class="vp_menu_button js-volume-button">
+        <i class="fa fa-volume-off" aria-hidden="true"></i>
       </button>
-      <button class="menu_button js-mute-button">
-        <i class="fa fa-volume-up menu_icon" aria-hidden="true"></i>
+      <button class="vp_menu_button js-mute-button">
+        <i class="fa fa-volume-up" aria-hidden="true"></i>
       </button>
-      <div style="flex-grow: 1;"></div>
-      <button class="menu_button js-fullscreen-button">
-        <i class="fa fa-expand menu_icon" aria-hidden="true"></i>
+      <div class="vp_empty_button"></div>
+      <button class="vp_menu_button js-fullscreen-button">
+        <i class="fa fa-expand" aria-hidden="true"></i>
       </button>
     </div>
     

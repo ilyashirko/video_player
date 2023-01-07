@@ -9,3 +9,5 @@
 pip3 install -r requirements.txt && python3 server.py
 ```
 он будет определять сохранения файла `index.html` и автоматически перезагружать страницу
+
+## [DEMO - версия](https://ilyashirko.github.io/video_player/)
