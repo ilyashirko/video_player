@@ -27,12 +27,16 @@ BODY {
     align-items: center;
     width: auto;
     opacity: 0;
+    transition-timing-function: ease-out;
+    transition-duration: 300ms;
 }
 .vp_pb:hover .vp_pb_slider_field {
     /* display: flex;
     align-items: center;
     width: auto; */
     opacity: 1;
+    transition-timing-function: ease-in;
+    transition-duration: 300ms;
 }
 
 .vp_pb_slider {
