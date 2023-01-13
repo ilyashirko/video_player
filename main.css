@@ -22,6 +22,11 @@ BODY {
     border-radius: 5px;
     /* display: flex; */
 }
+.vp_pb_slider_field {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
 .vp_pb_slider {
     height: 7px;
     width: 7px;
@@ -33,7 +38,8 @@ BODY {
     border-width: 3px;
     border-color: white;
     margin-left: -5px;
-    margin-right: 5px;
+    margin-right: -5px;
+    
 }
 .vp_main_vf {
     height: 600px;
