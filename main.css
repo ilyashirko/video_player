@@ -22,7 +22,6 @@ BODY {
     background-color: red;
     height: 5px;
     border-radius: 5px;
-    /* display: flex; */
 }
 .vp_pb_slider_field {
     display: flex;
@@ -33,9 +32,6 @@ BODY {
     transition-duration: 300ms;
 }
 .vp_pb:hover .vp_pb_slider_field {
-    /* display: flex;
-    align-items: center;
-    width: auto; */
     opacity: 1;
     transition-timing-function: ease-in;
     transition-duration: 300ms;
@@ -46,8 +42,6 @@ BODY {
     width: 7px;
     background-color: red;
     border-radius: 50%;
-    /* display: flex; */
-    /* display: inline-block; */
     border-style: solid;
     border-width: 3px;
     border-color: white;
@@ -79,12 +73,8 @@ BODY {
     background-color: transparent;
     border-style: none;
     cursor: pointer;
-    /* height: 40pt; */
-    /* width: 50pt; */
-    /* margin: 1px; */
     padding: 10px;
     padding-bottom: 12px;
-    /* padding-right: 10px; */
     flex-grow: 0;
 }
 
