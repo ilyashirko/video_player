@@ -26,7 +26,15 @@ BODY {
     display: flex;
     align-items: center;
     width: auto;
+    opacity: 0;
 }
+.vp_pb:hover .vp_pb_slider_field {
+    /* display: flex;
+    align-items: center;
+    width: auto; */
+    opacity: 1;
+}
+
 .vp_pb_slider {
     height: 7px;
     width: 7px;
@@ -41,6 +49,7 @@ BODY {
     margin-right: -5px;
     
 }
+
 .vp_main_vf {
     height: 600px;
     width: 800px;
