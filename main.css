@@ -8,23 +8,27 @@ BODY {
 
 .vp_pb {
     background-color: grey;
-    height: 5px !important; 
+    height: 5px; 
     flex-grow: 1;
+    flex-direction: row;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 5px;
+    display: flex;
 }
 .vp_pb_p {
     background-color: red;
     height: 5px;
     border-radius: 5px;
+    /* display: flex; */
 }
 .vp_pb_slider {
     height: 7px;
     width: 7px;
     background-color: red;
     border-radius: 50%;
-    display: inline-block;
+    /* display: flex; */
+    /* display: inline-block; */
     border-style: solid;
     border-width: 3px;
     border-color: white;
