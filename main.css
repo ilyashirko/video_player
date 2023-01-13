@@ -19,7 +19,7 @@ BODY {
 }
 
 .vp_video_container {
-    flex: 2 1 100px;
+    flex: 1 1 200px;
 }
 
 .vp_menu {
@@ -33,16 +33,18 @@ BODY {
     background-color: transparent;
     border-style: none;
     cursor: pointer;
-    height: 40pt;
-    width: 50pt;
-    margin: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* height: 40pt; */
+    /* width: 50pt; */
+    /* margin: 1px; */
+    padding: 10px;
+    padding-bottom: 13px;
+    /* padding-right: 10px; */
     flex-grow: 0;
 }
 
 .fa {
+    /* font-family: "Roboto";
+    font-weight: 400; */
     color: white;
-    font-size: 30pt;
+    font-size: 15pt;
 }
-

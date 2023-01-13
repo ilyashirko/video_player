@@ -9,5 +9,5 @@ rebuild()
 
 
 server = Server()
-server.watch('*.html', rebuild)
+server.watch('*.css', rebuild)
 server.serve(root='.')
