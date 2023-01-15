@@ -17,6 +17,7 @@ BODY {
     margin-right: 10px;
     border-radius: 5px;
     display: flex;
+    cursor: pointer;
 }
 .vp_pb_p {
     background-color: red;
@@ -35,7 +36,7 @@ BODY {
     opacity: 1;
     transition-timing-function: ease-in;
     transition-duration: 300ms;
-    cursor: pointer;
+    
 }
 
 .vp_pb_slider {
