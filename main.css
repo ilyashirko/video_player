@@ -84,11 +84,6 @@ BODY {
     font-size: 15pt;
 }
 
-.vp_time {
-    display: flex;
-    align-items: center;
-}
-
 .vp_menu_duration {
     color: white;
     font-family: "Roboto";
