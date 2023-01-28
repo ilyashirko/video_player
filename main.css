@@ -80,15 +80,13 @@ BODY {
     padding: 10px;
     padding-bottom: 8px;
     flex-grow: 0;
+    color: white;
+    font-size: 15pt;
 }
 
 .vp_time {
     display: flex;
     align-items: center;
-}
-.fa {
-    color: white;
-    font-size: 15pt;
 }
 
 .vp_menu_duration {
