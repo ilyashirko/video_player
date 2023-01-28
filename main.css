@@ -72,16 +72,20 @@ BODY {
 }
 
 .vp_menu_button {
-    height: 35pt;
-    width: 35pt;
+    height: 33pt;
+    width: 27pt;
     background-color: transparent;
     border-style: none;
     cursor: pointer;
     padding: 10px;
-    padding-bottom: 12px;
+    padding-bottom: 8px;
     flex-grow: 0;
 }
 
+.vp_time {
+    display: flex;
+    align-items: center;
+}
 .fa {
     color: white;
     font-size: 15pt;
