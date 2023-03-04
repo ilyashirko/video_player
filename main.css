@@ -9,6 +9,12 @@ BODY {
 }
 
 .vp_pb {
+    flex-grow: 1;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.vp_pb_l {
     background-color: grey;
     height: 5px; 
     flex-grow: 1;
